@@ -2,7 +2,7 @@ import React from 'react';
 
 import HeaderProps from "./Header.props";
 import Heading from "./Heading";
-import ClassMap from "../utilities/ClassMap";
+import ClassMap from "../utility/ClassMapClassMap";
 
 const Header = ({ heading, icon, children, className }: HeaderProps) => {
 

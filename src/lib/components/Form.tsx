@@ -3,7 +3,7 @@ import FormProps from "./Form.props";
 import FormState from "./Form.state";
 import FieldProps from "./Field.props";
 import Field from "./Field";
-import ClassMap from "../utilities/ClassMap";
+import ClassMap from "../utility/ClassMapClassMap";
 import Header from "./Header";
 
 class Form extends Component<FormProps, FormState> {

@@ -4,7 +4,7 @@ import ListItem from './ListItem';
 import ListItemProps from "./ListItem.props";
 import ListProps from "./List.props";
 import Link from './Link';
-import ClassMap from "../utilities/ClassMap";
+import ClassMap from "../utility/ClassMap";
 
 const List = ({ ordered = false, items = [], id, isPlain = false }: ListProps) => {
 

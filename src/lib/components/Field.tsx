@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import FieldProps from "./Field.props";
-import ClassMap from "../utilities/ClassMap";
+import ClassMap from "../utility/ClassMapClassMap";
 
 const Field = ({
     type = 'text',
