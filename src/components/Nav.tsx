@@ -1,7 +1,7 @@
 import React from 'react';
 
 import NavProps from "./Nav.props";
-import ClassMap from "../utility/ClassMapClassMap";
+import ClassMap from "../utility/ClassMap";
 import Heading from "./Heading";
 import List from "./List";
 

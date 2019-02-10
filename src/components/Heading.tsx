@@ -7,23 +7,23 @@ const Heading = ({ title, level = 1 } : HeadingProps) => {
         children: title,
     }
     switch(level){
-        case 1:
-            return <h1 {...attributes } />;
-            break;
-        case 2:
-            return <h2 {...attributes } />;
-            break;
-        case 3:
-            return <h3 {...attributes } />;
-            break;
-        case 4:
-            return <h4 {...attributes } />;
+        case 6:
+            return <h6 {...attributes } />;
             break;
         case 5:
             return <h5 {...attributes } />;
             break;
-        case 6:
-            return <h6 {...attributes } />;
+        case 4:
+            return <h4 {...attributes } />;
+            break;
+        case 3:
+            return <h3 {...attributes } />;
+            break;
+        case 2:
+            return <h2 {...attributes } />;
+            break;
+        default:
+            return <h1 {...attributes } />;
             break;
     }
 }
